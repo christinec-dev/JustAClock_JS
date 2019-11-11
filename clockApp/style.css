@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans+Condensed:300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://image.freepik.com/free-vector/devices_53876-28515.jpg);
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 210px;
+}
+
+.main {
+    background: #ccc;
+    width: 400px;
+    height: 175px;
+    margin:100px auto;
+    position: relative;
+    padding: 30px;
+    
+}
+
+.badge {
+    background: rgb(228, 107, 173);
+    color: white;
+    font-size: 2em;
+    font-stretch: semi-expanded;
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: 32%;
+}
+
+.clock {
+    background: white;
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 30px;
+    border-radius: 10px;
+}
